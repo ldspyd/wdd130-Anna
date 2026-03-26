@@ -5,17 +5,49 @@
 
 
 /* header */
-#intro {
+nav {
+    display: grid;
+    grid-template-columns: 80px 4fr 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
+    margin: 15px;
 }
-
-
+nav img {
+    width: 80px;
+    grid-column: 1;
+}
+nav li:nth-of-type(1) {
+    grid-column: 3;
+}
+nav li:nth-of-type(2) {
+    grid-column: 4;
+}
+nav li:nth-of-type(3) {
+    grid-column: 5;
+}
 
 
 
 
 /* main */
 
+#intro {
+    position: relative;
+}
+#intro img {
+    width: 100%;
+    display: block;
+}
+#intro h1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
+    /* translate: (-50%, -50%); */
+    color: white;
+    font-size: 70px;
+
+}
 
 
 
