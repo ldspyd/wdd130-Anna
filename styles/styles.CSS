@@ -11,7 +11,20 @@ nav {
     justify-items: center;
     align-items: center;
     margin: 15px;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
 nav img {
     width: 80px;
     grid-column: 1;
