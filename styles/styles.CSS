@@ -124,6 +124,7 @@ main p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    align-items: center;
 }
 
 #modern_page_main img {
@@ -154,3 +155,7 @@ main p{
 
 
 /* footer */
+
+footer {
+    border: solid black 1px;
+}
