@@ -18,11 +18,13 @@ nav {
     gap: 20px;
     text-decoration: none;
 }
-
 nav li{
     list-style: none;
 }
-
+nav a {
+    text-decoration: none;
+    color: #1b1b1b;
+}
 nav img {
     width: 80px;
     grid-column: 1;
