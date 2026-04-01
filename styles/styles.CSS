@@ -105,8 +105,16 @@ nav li:nth-of-type(3) {
     margin-left: 50px;
 }
 
+#modern_page_main {
+    display: grid;
+    grid-row-gap: 15px;
+}
 
+#modern_page_main div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
 
 
 
