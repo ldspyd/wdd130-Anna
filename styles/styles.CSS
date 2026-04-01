@@ -19,14 +19,9 @@ nav {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
+nav li{
+    list-style: none;
+}
 
 nav img {
     width: 80px;
