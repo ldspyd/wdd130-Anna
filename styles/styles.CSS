@@ -205,5 +205,6 @@ main #history_main {
 /* footer */
 
 footer {
+    margin-top: 10px;
     border: solid black 1px;
 }
