@@ -50,6 +50,9 @@ nav li:nth-of-type(3) {
     justify-items: center;
     gap: 30px;
 }
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 .intro {
@@ -75,10 +78,7 @@ nav li:nth-of-type(3) {
     margin: 20px;
 }
 
-main p{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+/* main page */
 #homepage_main section {
     grid-column: 1 / 3;
     display: grid;
@@ -97,7 +97,6 @@ main p{
     margin: 0px;
 }
 
-
 #homepage_main button {
     width: 250px;
     height: 50px;
@@ -111,19 +110,27 @@ main p{
     margin-left: 50px;
 }
 
+
+/* history page */
+main #history_header {
+    justify-self: left;
+}
+main #history_main {
+    display: grid;
+}
+
+/* modern page */
 #modern_page_main {
     display: grid;
     grid-row-gap: 15px;
     margin: 20px;
 }
-
 #modern_page_main div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
 }
-
 #modern_page_main img {
     width: 90%;
 }
@@ -148,6 +155,7 @@ main p{
     background-color: #1b1b1b;
     color:beige;
 }
+
 
 
 
