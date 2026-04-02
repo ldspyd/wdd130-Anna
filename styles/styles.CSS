@@ -144,6 +144,7 @@ main #history_header {
 }
 main #history_main {
     display: grid;
+    gap: 20px;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
 }
