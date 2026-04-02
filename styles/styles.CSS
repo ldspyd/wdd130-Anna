@@ -101,7 +101,10 @@ main section {
 
 
 
-
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 #history_button_a {
     width:200px;
     height: 50px;
