@@ -2,3 +2,56 @@ h1{
     color: blue;
     font-size: 24 px;
 }
+
+Can you write the CSS to set the width of an element with the ID of "header" to 100% and give it a padding of 20px?
+
+
+
+#header{
+    display:100%;
+    padding :20px;
+}
+
+
+Albert: Let's try another CSS one. How would you write the CSS to make all paragraph tags (<p>) have bold text and a line-height of 1.5?
+
+
+
+p {
+  font-weight: bold;  
+  line-height: 1.5;
+  gap: 
+
+}
+
+How would you center an image (<img>) horizontally within a <div> using the margin property?
+
+image{
+align-items: center;
+
+}
+
+
+Albert: For your first Grid question:
+
+If you have a container <div> with display: grid;, what CSS property and value would you use to create three columns of equal width?
+
+
+ display: grid 1fr 1fr 1fr
+grid-column-template
+
+
+
+.container {
+
+display: grid; 20 px
+
+
+}
+
+
+
+20px gap between both the rows and the columns in a grid container?
+
+Interview Progress:
+
