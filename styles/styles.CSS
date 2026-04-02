@@ -190,7 +190,10 @@ main #history_main {
     background-color: #1b1b1b;
     color:beige;
 }
-
+#modern_page_main a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 
 
