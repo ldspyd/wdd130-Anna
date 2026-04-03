@@ -71,13 +71,16 @@ main p{
     margin: 20px;
 }
 
+
+
 /* main page */
+
 main section {
-    grid-column: 1 / 3;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 3fr;
     align-items: center;
     justify-items: center;
+    margin-bottom: 30px;
 }
 
 
@@ -92,11 +95,13 @@ main section {
     margin: 0px;
 }
 
+#parts {
+    padding-right: 80px;
+}
+
 #homepage_main button {
     width: 250px;
     height: 50px;
-    
-   
 }
 
 
@@ -104,6 +109,7 @@ main section {
 #buttons{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
 }
 #history_button_a {
     width:200px;
@@ -113,7 +119,7 @@ main section {
     background-color: #1b1b1b;
 }
 #history_button_a a{
-    color:beige;
+    color:white;
     text-decoration: none;
 }
 #modern_button_a{
@@ -125,7 +131,7 @@ main section {
 }
 
 #modern_button_a a{
-    color:beige;
+    color:white;
     text-decoration: none;
 }
 
